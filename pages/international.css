@@ -150,3 +150,13 @@ nav .mainMenu .closeMenu,
   color: #234ad4;
   font-size: 3rem;
 }
+
+/* Table Styling */
+table {
+  table-layout: auto;
+  border: 1px solid black;
+  padding: 20px;
+}
+tr {
+  border: 1px solid black;
+}
