@@ -36,29 +36,28 @@
     <!--International-->
     <div class="international">RESEARCH SCHOLARSHIP</div>
     <!-- International Table -->
+    <div style="margin: 15px">
+      <input
+        type="text"
+        name=""
+        id="myInput"
+        placeholder="Search.."
+        style="width: 50%; padding: 10px"
+        onkeyup="searchFunction()"
+      />
+    </div>
 
     <div
       class="international_table"
       style="width: 90%; display: flex; justify-content: center; margin: auto"
     >
-      <table>
-        <tr>
-          <th>SL.NO</th>
+      <table id="myTable">
+        <tr id="tr">
           <th>Scholarship Name</th>
           <th>Eligibity Criteria</th>
           <th>Apply Link</th>
         </tr>
         <tr>
-          <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            1.
-          </td>
           <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
@@ -86,16 +85,6 @@
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            2.
-          </td>
           <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
@@ -132,16 +121,6 @@
         </tr>
         <tr>
           <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            3.
-          </td>
-          <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
             Australia Research Training Program (RTP) Scholarships
@@ -170,16 +149,6 @@
         </tr>
         <tr>
           <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            4.
-          </td>
-          <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
             Swiss Government Excellence Scholarships for Foreign Students
@@ -205,16 +174,6 @@
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            5.
-          </td>
           <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
@@ -244,16 +203,6 @@
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            6.
-          </td>
           <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
@@ -286,16 +235,6 @@
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            7.
-          </td>
           <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
@@ -333,16 +272,6 @@
         </tr>
         <tr>
           <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            8.
-          </td>
-          <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
             University of Melbourne Graduate Research Scholarships
@@ -370,16 +299,6 @@
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            9.
-          </td>
           <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
@@ -409,16 +328,6 @@
         </tr>
         <tr>
           <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            10.
-          </td>
-          <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
             Cambridge International Scholarships
@@ -447,16 +356,6 @@
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            11.
-          </td>
           <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
@@ -489,16 +388,6 @@
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            12.
-          </td>
           <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
@@ -535,16 +424,6 @@
         </tr>
         <tr>
           <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            14.
-          </td>
-          <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
             Vice Chancellor’s International Scholarship for Research Excellence
@@ -575,16 +454,6 @@
         </tr>
         <tr>
           <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            15.
-          </td>
-          <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
             Sussex Chancellor’s International Research Scholarships
@@ -614,16 +483,6 @@
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            16.
-          </td>
           <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
@@ -661,16 +520,6 @@
         </tr>
         <tr>
           <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            17.
-          </td>
-          <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
             Institute Post-Doctoral Fellowship – IIT Ropar
@@ -700,16 +549,6 @@
         </tr>
         <tr>
           <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            18.
-          </td>
-          <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
             Institute Post-Doctoral Fellowship – IIT Ropar
@@ -738,16 +577,6 @@
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              justify-content: center;
-              align-items: center;
-              display: flex;
-              flex-direction: row;
-            "
-          >
-            19.
-          </td>
           <td
             style="justify-content: center; align-items: center; padding: 5px"
           >
@@ -779,8 +608,23 @@
       </table>
     </div>
   </body>
-  <script
-    type="text/javascript"
-    src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"
-  ></script>
+  <script>
+    const searchFunction = () => {
+      let filter = document.getElementById("myInput").value.toUpperCase();
+      let table = document.getElementById("myTable");
+      let tr = table.getElementsByTagName("tr");
+
+      for (var i = 0; i < tr.length; i++) {
+        let td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          let textvalue = td.textContent || td.innerText;
+          if (textvalue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }
+      }
+    };
+  </script>
 </html>
